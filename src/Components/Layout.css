@@ -1,0 +1,78 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #081b31;
+    color: white;
+}
+.navbar p{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.image-container{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.choice{
+    height: 10rem;
+    width:10rem ;
+    
+}
+.choice img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice :hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: x-large
+}
+#user-score{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#comp-score{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.msg-box{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    height: 3rem;
+    width: 40rem;
+    border: 2px solid black;
+    background-color: grey;
+    color: white;
+    font-size: x-large;
+    border-radius: 1rem;
+}
+.win {
+    background-color: green;
+    color: white;
+  }
+  
+  .lose {
+    background-color: rgba(144, 8, 8, 0.858);
+    color: white;
+  }
+  
+  .draw {
+    background-color: grey;
+    color: white;
+  }
+  
